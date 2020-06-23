@@ -123,6 +123,8 @@ public struct Version {
             minor: version.minorVersion,
             patch: version.patchVersion
         )
+        let array: [String] = []
+        print(array[4])
     }
 
     /// Canonicalize version by replacing nil components with their defaults
